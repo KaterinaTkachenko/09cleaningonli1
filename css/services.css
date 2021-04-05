@@ -1,0 +1,110 @@
+#services{
+    margin-top: 90px;
+    overflow: hidden;
+}
+.bg4{
+    left: -40px;
+    top: 280px;
+}
+.bg5 {
+    right: -320px;
+    top: 100px;
+}
+.services__flex1{
+    justify-content: space-between;
+}
+.spros__flex{
+    justify-content: space-around;
+}
+.services__flex1 {
+    margin: 70px 0;
+}
+.services__flex1>div{
+    width: 280px;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+    border-radius: 25px;
+    padding-bottom: 40px;
+}
+.services__flex1>div:nth-child(4n) {
+    margin-right: 0;
+}
+.services__flex1 img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.services__flex1>div>div{
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 228px;
+}
+.services__flex1__title{
+    margin: 30px 0 0px;
+}
+.services__flex1 .mainBtn{
+    display: block;
+}
+.services__flex1>div .mainBtn{
+    box-shadow: none;
+}
+.spros__flex{
+    margin: 40px 0 70px;
+}
+.spros__flex>div{
+    width: 425px;
+    text-align: center;
+    margin-bottom: 70px;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.spros__flex img{
+    height: 130px;
+    width: auto;
+    margin-bottom: 40px;
+}
+.spros__indPodhod{
+    width: 175px !important;
+    height: auto !important;
+}
+.block7{
+    background: url('../images/background-7.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 60px;
+}
+.block7__row{
+    position: relative;
+}
+.bg6 {
+    position: absolute;
+    top: -245px;
+    right: -295px;
+}
+.block7__desc{
+    height: 100vh;
+}
+.block7__desc__title{
+    margin: 70px 156px 50px 0px;
+    text-align: center;
+}
+.block7__desc ul li{
+    margin-bottom: 25px;
+}
+.block7 .mainBtnGreen{
+    margin-left: 19%;
+}
+.block7__btn{
+    margin-top: 3rem;
+}

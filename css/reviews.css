@@ -1,0 +1,33 @@
+#reviews{
+    margin-top: 25px;
+    padding-top: 50px;
+    overflow: hidden;
+}
+.bg9{
+    top: 20px;
+    left: -340px;
+}
+.bg8 {
+    top: 250px;
+    right: -330px;
+}
+.reviews__flex1{
+    justify-content: space-between;
+    margin: 50px 0 70px;    
+}
+.reviews__item img{
+    width: 130px;
+}
+.reviews__flex1>div {
+    width: 370px;
+    padding: 25px;
+    background-color: #fff;
+}
+.reviews__item>.crossFlex{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.reviews__item div{
+    font-size: 1rem;
+}
