@@ -13,12 +13,7 @@
 	else
 		$phone = null;
 
-	if (isset($_POST['message']))
-		$message = htmlspecialchars( trim($_POST['message']) );	
-	else
-		$message = null;
-    
-		// находясь на странице form-ok f5 redirect
+	// находясь на странице form-ok f5 redirect
     // https://api.telegram.org/bot1630337087:AAFwP1CT3wBc4TN_Td1s3C4C6cAIjCmC-rA/getUpdates
 	if($phone){	
 		// if(preg_match("/^+38\([0][1-9]{2}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}$/", $phone)) {
@@ -26,8 +21,7 @@
 			$chat_id = "-523100026";
 			$arr = array(
 				'Имя пользователя: ' => $name,
-				'Телефон: ' => $phone,
-				'Сообщение: ' => $message,
+				'Телефон: ' => $phone
 			);
 			$txt="";
 			foreach($arr as $key => $value){
